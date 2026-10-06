@@ -1,0 +1,21 @@
+h2{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+footer a {
+    text-decoration:none;
+}
+header a{
+    text-decoration:none;
+    font-weight: 300;
+}
+body{
+    background-color: rgb(181, 220, 235);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight:400
+    
+}
