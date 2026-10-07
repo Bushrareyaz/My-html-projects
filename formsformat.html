@@ -5,7 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="form.css">
+<header>
+    <h2>Professional Portfolio form</h2>
+    <h4>Please fill your personal details asked below and submit</h4>
+</header>
+<hr>
 <body>
+    <form action ="/action.php">
+
+        <p>Your Name</p>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <br>
+        <p>Email Address</p>
+        <input type="text" placeholder="Email">
+        <p>example23@gmail.com</p>
+        <p>Phone number</p>
+        <input type="phone number" placeholder="00 0000000000">
+        <p>please enter a valid phone number</p><br>
+        <label for="state">State :</label>
+        <select name="state" id="state">
+                <option value="">Select your state</option>
+            
+                <optgroup label="States">
+                  <option value="andhra-pradesh">Andhra Pradesh</option>
+                  <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                  <option value="assam">Assam</option>
+                  <option value="bihar">Bihar</option>
+                  <option value="chhattisgarh">Chhattisgarh</option>
+                  <option value="goa">Goa</option>
+                  <option value="gujarat">Gujarat</option>
+                  <option value="haryana">Haryana</option>
+                  <option value="himachal-pradesh">Himachal Pradesh</option>
+                  <option value="jharkhand">Jharkhand</option>
+                  <option value="karnataka">Karnataka</option>
+                  <option value="kerala">Kerala</option>
+                  <option value="madhya-pradesh">Madhya Pradesh</option>
+                  <option value="maharashtra">Maharashtra</option>
+                  <option value="manipur">Manipur</option>
+                  <option value="meghalaya">Meghalaya</option>
+                  <option value="mizoram">Mizoram</option>
+                  <option value="nagaland">Nagaland</option>
+                  <option value="odisha">Odisha</option>
+                  <option value="punjab">Punjab</option>
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="sikkim">Sikkim</option>
+                  <option value="tamil-nadu">Tamil Nadu</option>
+                  <option value="telangana">Telangana</option>
+                  <option value="tripura">Tripura</option>
+                  <option value="uttar-pradesh">Uttar Pradesh</option>
+                  <option value="uttarakhand">Uttarakhand</option>
+                  <option value="west-bengal">West Bengal</option>
+                </optgroup>
+            
+                <optgroup label="Union Territories">
+                  <option value="andaman-nicobar">Andaman and Nicobar Islands</option>
+                  <option value="chandigarh">Chandigarh</option>
+                  <option value="dadra-nagar-haveli-daman-diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                  <option value="delhi">Delhi</option>
+                  <option value="jammu-kashmir">Jammu and Kashmir</option>
+                  <option value="ladakh">Ladakh</option>
+                  <option value="lakshadweep">Lakshadweep</option>
+                  <option value="puducherry">Puducherry</option>
+                </optgroup>  
+    
+        </select>
+        <br>
+        <br>
+<div class="form-group">
+    <label for="description">Your Description</label>
+    <textarea id="description" name="description" placeholder="Write a short description here..." maxlength="500"></textarea>
+    <small class="char-count">0 / 500</small>
+  </div>
+  <br>
+  <footer>
+    <input type="submit" value="submit">
+  </footer>
+
+    </form>
+
+  
     
 </body>
 </html>
